@@ -1,0 +1,60 @@
+.un {
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    border: solid 12px #fff;
+    border-bottom:solid 40px #fff;
+    background: #fff;
+    box-shadow: 0 0 20px 0px #555;
+    transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    top: 50px;
+}
+
+.pag {
+    margin: -1px 0 0 0;
+    color: black;
+}
+.list:hover {
+    top: 0px;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95));
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95));
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95));
+    background: -ms-linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95));
+}
+.pic{
+    text-align: center;
+    display: inline;
+        list-style: none;
+        position: relative;
+        top: 50px;
+}
+
+
+.list:nth-child(1) {
+    transform: rotate(10deg);
+}
+
+.list:nth-child(2) {
+    transform: rotate(0deg);
+}
+
+.list:nth-child(3) {
+    transform: rotate(-5deg);
+}
+
+.list:nth-child(4) {
+    transform: rotate(10deg);
+}
+
+p {
+    margin: -15px 0 0 0;
+}
